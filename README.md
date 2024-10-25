@@ -7,6 +7,7 @@ This little Docker container will connect to [APRS-IS](http://aprs-is.net/) over
 Clone this repo and then add this to your `docker-compose.yml` file:
 
 ```yaml
+services:
   aprs2traccar:
     build: https://github.com/PhilRW/aprs2traccar.git
     container_name: aprs2traccar  # optional
